@@ -1,0 +1,119 @@
+# depslib dependency file v1.0
+1524614911 source:d:\clase 10\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"funciones.h"
+
+1524614853 d:\clase 10\funciones.h
+
+1524616894 source:d:\clase 10\main.c
+	<stdio.h>
+	<stdlib.h>
+	"usuario.h"
+
+1524608858 source:d:\clase 10\producto.c
+	<stdio.h>
+	<string.h>
+	"producto.h"
+
+1524608823 d:\clase 10\producto.h
+
+1524616695 source:d:\clase 10\usuario.c
+	<stdio.h>
+	<string.h>
+	"usuario.h"
+	"funciones.h"
+
+1524618241 d:\clase 10\usuario.h
+
+1524608966 source:d:\clase 10\venta.c
+	<stdio.h>
+	<string.h>
+	"venta.h"
+
+1524608823 d:\clase 10\venta.h
+
+1524758138 source:c:\users\windows\documents\programacion y laboratorio 1\clase 10 (modelo de parcial)\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"funciones.h"
+
+1524619068 c:\users\windows\documents\programacion y laboratorio 1\clase 10 (modelo de parcial)\funciones.h
+
+1524757867 source:c:\users\windows\documents\programacion y laboratorio 1\clase 10 (modelo de parcial)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"usuario.h"
+
+1524757655 c:\users\windows\documents\programacion y laboratorio 1\clase 10 (modelo de parcial)\usuario.h
+
+1524619068 source:c:\users\windows\documents\programacion y laboratorio 1\clase 10 (modelo de parcial)\producto.c
+	<stdio.h>
+	<string.h>
+	"producto.h"
+
+1524619068 c:\users\windows\documents\programacion y laboratorio 1\clase 10 (modelo de parcial)\producto.h
+
+1524619068 source:c:\users\windows\documents\programacion y laboratorio 1\clase 10 (modelo de parcial)\venta.c
+	<stdio.h>
+	<string.h>
+	"venta.h"
+
+1524619068 c:\users\windows\documents\programacion y laboratorio 1\clase 10 (modelo de parcial)\venta.h
+
+1524703777 source:c:\users\windows\documents\programacion y laboratorio 1\clase 10 (modelo de parcial)\usuarioo.c
+	<stdio.h>
+	<string.h>
+	"usuario.h"
+	"funciones.h"
+
+1524777270 source:c:\users\windows\documents\programacion y laboratorio 1\clase 10 (modelo de parcial)\usuario.c
+	<stdio.h>
+	<string.h>
+	"usuario.h"
+	"funciones.h"
+
+1524758140 source:d:\clase 10 (modelo de parcial)\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"funciones.h"
+
+1524619068 d:\clase 10 (modelo de parcial)\funciones.h
+
+1524757868 source:d:\clase 10 (modelo de parcial)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"usuario.h"
+
+1524757656 d:\clase 10 (modelo de parcial)\usuario.h
+
+1524619068 source:d:\clase 10 (modelo de parcial)\producto.c
+	<stdio.h>
+	<string.h>
+	"producto.h"
+
+1524619068 d:\clase 10 (modelo de parcial)\producto.h
+
+1524778102 source:d:\clase 10 (modelo de parcial)\usuario.c
+	<stdio.h>
+	<string.h>
+	"usuario.h"
+	"funciones.h"
+
+1524619068 source:d:\clase 10 (modelo de parcial)\venta.c
+	<stdio.h>
+	<string.h>
+	"venta.h"
+
+1524619068 d:\clase 10 (modelo de parcial)\venta.h
+
