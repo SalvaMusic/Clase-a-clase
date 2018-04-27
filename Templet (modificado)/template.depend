@@ -1,0 +1,90 @@
+# depslib dependency file v1.0
+1524699666 source:d:\template\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"fantasma.h"
+	"utn.h"
+
+1524691839 source:d:\template\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1524691839 d:\template\utn.h
+
+1524700062 source:d:\template\fantasma.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"fantasma.h"
+	"utn.h"
+
+1524700062 d:\template\fantasma.h
+
+1524787808 source:d:\template primer parcial\fantasma.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fantasma.h"
+	"utn.h"
+
+1524787808 d:\template primer parcial\fantasma.h
+
+1524691840 d:\template primer parcial\utn.h
+
+1524782610 source:d:\template primer parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"fantasma.h"
+	"utn.h"
+
+1524691840 source:d:\template primer parcial\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1524790294 source:d:\template_pp\template\abonado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"abonado.h"
+	"utn.h"
+
+1524789641 d:\template_pp\template\abonado.h
+
+1524691840 d:\template_pp\template\utn.h
+
+1524791913 source:d:\template_pp\template\llamada.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"llamada.h"
+	"utn.h"
+
+1524791595 d:\template_pp\template\llamada.h
+
+1524691840 source:d:\template_pp\template\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1524791984 source:d:\template_pp\template\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"abonado.h"
+	"llamada.h"
+	"utn.h"
+
