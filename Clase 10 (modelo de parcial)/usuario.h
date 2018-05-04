@@ -1,5 +1,5 @@
-#ifndef EMPLEADO_H_INCLUDED
-#define EMPLEADO_H_INCLUDED 123
+#ifndef USUARIO_H_INCLUDED
+#define USUARIO_H_INCLUDED 123
 typedef struct
 {
     char nombreUsuario[50];
@@ -7,7 +7,7 @@ typedef struct
     int idUsuario;
     int isEmpty;
 }Usuario;
-#endif // EMPLEADO_H_INCLUDED
+#endif // USUARIO_H_INCLUDED
 
 int usu_mostrar(Usuario* arrayUsuario, int sizeArray);
 int usu_alta (Usuario* arrayUsuario, int sizeArray);

@@ -1,8 +1,13 @@
-#ifndef EMPLEADO_H_INCLUDED
-#define EMPLEADO_H_INCLUDED 123
+#ifndef VENTA_H_INCLUDED
+#define VENTA_H_INCLUDED 123
 typedef struct
 {
+    int idPublicacion;
+    int idComprador;
+    int cantidad;
+    int precio;
+    int calificaion;
     int idVenta;
     int isEmpty;
-}Empleado;
-#endif // EMPLEADO_H_INCLUDED
+}Venta;
+#endif // VENTA_H_INCLUDED
