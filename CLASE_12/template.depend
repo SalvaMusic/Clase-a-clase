@@ -251,3 +251,55 @@
 	"pantalla.h"
 	"utn.h"
 
+1525816988 source:c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\clase_12\contratacion.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"Contratacion.h"
+	"utn.h"
+	"Pantalla.h"
+
+1525816988 c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\clase_12\contratacion.h
+	"pantalla.h"
+
+1525816988 c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\clase_12\pantalla.h
+
+1525816988 c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\clase_12\utn.h
+
+1525821722 source:c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\clase_12\informar.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"Contratacion.h"
+	"utn.h"
+	"Pantalla.h"
+
+1525818977 source:c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\clase_12\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"pantalla.h"
+	"utn.h"
+	"Contratacion.h"
+	"informar.h"
+
+1525816988 c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\clase_12\informar.h
+
+1525816988 source:c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\clase_12\pantalla.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"pantalla.h"
+	"utn.h"
+
+1525816988 source:c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\clase_12\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
