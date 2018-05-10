@@ -1,0 +1,80 @@
+# depslib dependency file v1.0
+1524699666 source:d:\template\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"fantasma.h"
+	"utn.h"
+
+1524691839 source:d:\template\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1524691839 d:\template\utn.h
+
+1524700062 source:d:\template\fantasma.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"fantasma.h"
+	"utn.h"
+
+1524700062 d:\template\fantasma.h
+
+1524787808 source:d:\template primer parcial\fantasma.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fantasma.h"
+	"utn.h"
+
+1524787808 d:\template primer parcial\fantasma.h
+
+1524691840 d:\template primer parcial\utn.h
+
+1524782610 source:d:\template primer parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"fantasma.h"
+	"utn.h"
+
+1524691840 source:d:\template primer parcial\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1525934228 source:c:\users\windows\documents\utn\programacion y laboratorio 1\template_pp\template\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"fantasma.h"
+	"utn.h"
+
+1525903732 c:\users\windows\documents\utn\programacion y laboratorio 1\template_pp\template\fantasma.h
+
+1524777698 c:\users\windows\documents\utn\programacion y laboratorio 1\template_pp\template\utn.h
+
+1525902353 source:c:\users\windows\documents\utn\programacion y laboratorio 1\template_pp\template\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1525934634 source:c:\users\windows\documents\utn\programacion y laboratorio 1\template_pp\template\fantasma.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fantasma.h"
+	"utn.h"
+
