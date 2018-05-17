@@ -38,6 +38,7 @@ int cliente_mostrarPorId(Cliente* array,int limite,int idCliente)
             printf("\nNo hay datos ingresados!");
         }
     }
+    printf("\n");
     return retorno;
 }
 
@@ -71,6 +72,7 @@ int cliente_altaForzada(Cliente* array,int limite,char* nombre,char* apellido,ch
         }
         retorno = 0;
     }
+
     return retorno;
 }
 
@@ -151,6 +153,7 @@ int cliente_baja(Cliente* array,int limite, int id)
             printf("\nID No encontrado!\n");
         }
     }
+    printf("\n");
     return retorno;
 }
 
@@ -224,6 +227,7 @@ int cliente_alta(Cliente* array,int limite)
             }
         }
     }
+    printf("\n");
     return retorno;
 }
 
@@ -323,6 +327,7 @@ int cliente_modificacionCase(Cliente* array,int sizeArray,int id)
             printf("\nID no encontrado\n");
         }// if(indice >= 0)
     }//if(sizeArray > 0 && array != NULL)
+    printf("\n");
     return retorno;
 }
 
@@ -362,6 +367,7 @@ int cliente_ordenar(Cliente* array,int limite, int orden)
             }
         }while(flagSwap);
     }
+    printf("\n");
     return retorno;
 }
 

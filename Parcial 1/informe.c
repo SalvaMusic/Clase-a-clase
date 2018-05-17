@@ -17,17 +17,20 @@ int informe_publicacionFinal(Cliente* arrayC,int limiteC,Publicacion* arrayP,int
 {
     int rubro, mayor, menor, cantMayor, cantMenor,cantidadActivas;
 
-    publicacion_rubroMayorMenor(arrayP,limiteP,&mayor,&cantMayor,&cantMenor,&menor);
-    printf("\nRubro con mas publicaciones activas: Rubro %d - Cantidad: %d Publicaciones", mayor, cantMayor);
-    printf("\nRubro con menos publicaciones activas: Rubro %d - Cantidad: %d Publicaciones\n", menor,cantMenor);
-    printf("\nCANTIDAD DE PUBLICACIONES POR RUBRO:");
+    if(limiteP > 0 && arrayP != NULL && limiteC > 0 && arrayC != NULL)
+    {
+        publicacion_rubroMayorMenor(arrayP,limiteP,&mayor,&cantMayor,&cantMenor,&menor);
+        printf("\nRubro con mas publicaciones activas: Rubro %d - Cantidad: %d Publicaciones", mayor, cantMayor);
+        printf("\nRubro con menos publicaciones activas: Rubro %d - Cantidad: %d Publicaciones\n", menor,cantMenor);
+        printf("\nCANTIDAD DE PUBLICACIONES POR RUBRO:");
 
-    if(!getValidInt("\nIngrese Rubro: ", "\nSolo Numeros de 0 a 100!", &rubro,0,100,3)){
-        cantidadActivas=publicacion_contarAcivasPorRubro(arrayP,limiteP,rubro);
-        if(cantidadActivas>0){
-            printf("\nEl rubro %d tiene %d publicaciones activas.\n",rubro,cantidadActivas);
-        }else{
-            printf("\nEl rubro %d no tiene publicaciones aun.\n", rubro);
+        if(!getValidInt("\nIngrese Rubro: ", "\nSolo Numeros de 0 a 100!", &rubro,0,100,3)){
+            cantidadActivas=publicacion_contarAcivasPorRubro(arrayP,limiteP,rubro);
+            if(cantidadActivas>0){
+                printf("\nEl rubro %d tiene %d publicaciones activas.\n",rubro,cantidadActivas);
+            }else{
+                printf("\nEl rubro %d no tiene publicaciones aun.\n", rubro);
+            }
         }
     }
 
@@ -46,7 +49,6 @@ int informe_clienteFinal(Cliente* arrayC,int limiteC,Publicacion* arrayP,int lim
 {
     int retorno = -1;
     int i, activas, pausadas, total, maxActivas=0, maxPausadas=0, maxTotal=0, indexTotal, indexPausadas, indexActivas;
-
 
     if(limiteC > 0 && arrayC != NULL && limiteP > 0 && arrayP != NULL)
     {

@@ -31,12 +31,14 @@ int main()
 
     do
     {
+        system("cls");
         getValidInt("\n1.Alta de Cliente\n2.Modicicar datos de Cliente\n3.Baja de Cliente\n4.Publicar\n5.Pausar Publicacion\n6.Reanudar Publicacion\n7.Imprimir Clientes\n8.Imprimir Publicaciones\n9.Informar Clientes\n10.Informar Publicaciones\n11.Salir\n\nINGRESE UNA OPCION: ","\nNo valida\n",&menu,1,11,1);
         switch(menu)
         {
             case 1:
                 printf("\n\tALTA CLIENTE:\n");
                 cliente_alta(arrayCliente,QTY);
+                system("pause");
                 break;
             case 2:
                 printf("\n\tMODIFICAR DATOS CLIENTE:\n");
@@ -44,6 +46,7 @@ int main()
                 if (!getValidInt("\nIngrese ID: ","\nNumero invalido\n",&idCliente,0,200,2)){
                     cliente_modificacionCase(arrayCliente,QTY,idCliente);
                 }
+                system("pause");
                 break;
             case 3:
                 printf("\n\tBAJA CLIENTE:\n");
@@ -57,6 +60,7 @@ int main()
                 }else{
                     printf("\nOperacion Cancelada\n");
                 }
+                system("pause");
                 break;
             case 4:
                 printf("\n\tPUBLICAR:\n");
@@ -64,6 +68,7 @@ int main()
                 if (!getValidInt("\nIngrese ID de Cliente: ","\nNumero invalido\n",&idCliente,0,200,2)){
                     publicacion_alta(arrayPublicacion,QTYP,arrayCliente,QTY,idCliente);
                 }
+                system("pause");
                 break;
             case 5:
                 printf("\n\tPAUSAR PUBLICACION:");
@@ -83,6 +88,7 @@ int main()
                         }
                     }
                 }
+                system("pause");
                 break;
             case 6:
                 printf("\n\tREANUDAR PUBLICACION:");
@@ -102,22 +108,27 @@ int main()
                         }//if(!publicacion_devolverIdCliente(arrayPublicacion,QTYP,auxiliarId,&idCliente) && publicacion_devolverEstado(arrayPublicacion,QTYP,auxiliarId)){
                     }//if(!getValidInt("\nIngrese ID de Publicacion: ","\nNumero invalido\n",&auxiliarId,0,200,2)){
                 }//if (!publicacion_listarPausadas(arrayPublicacion,QTYP)){
+                system("pause");
                 break;
                 case 7:
                 printf("\n\tIMPRIMIR CLIENTES:\n");
                 informe_imprimirCliente(arrayCliente,QTY,arrayPublicacion,QTYP);
+                system("pause");
                 break;
                 case 8:
                 printf("\n\tIMPRIMIR PUBLICACIONES:\n");
                 informe_imprimirPublicacion(arrayCliente,QTY,arrayPublicacion,QTYP);
+                system("pause");
                 break;
                 case 9:
                 printf("\n\tINFORMAR CLIENTES:\n");
                 informe_clienteFinal(arrayCliente,QTY,arrayPublicacion,QTYP);
+                system("pause");
                 break;
                 case 10:
                 printf("\n\tINFORMAR PUBLICACIONES:\n");
                 informe_publicacionFinal(arrayCliente,QTY,arrayPublicacion,QTYP);
+                system("pause");
                 break;
         }
     }while(menu != 11);

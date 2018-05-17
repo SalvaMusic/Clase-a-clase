@@ -96,7 +96,7 @@ int publicacion_altaForzada(Publicacion* array,int limite,char* descripcion, int
     int retorno = -1;
     int i;
 
-    if(limite > 0 && array != NULL)
+    if(limite > 0 && array != NULL && limiteC > 0 && arrayC != NULL )
     {
         i = buscarLugarLibre(array,limite);
         if(i >= 0 && !arrayC[idCliente].isEmpty)

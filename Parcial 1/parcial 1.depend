@@ -242,7 +242,7 @@
 
 1526398445 c:\users\windows\desktop\parcial 1\informe.h
 
-1526593283 source:c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\cliente.c
+1526596122 source:c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\cliente.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -257,7 +257,7 @@
 
 1526593283 c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\utn.h
 
-1526593735 source:c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\informe.c
+1526595978 source:c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\informe.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -265,7 +265,7 @@
 	"publicacion.h"
 	"utn.h"
 
-1526593283 source:c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\publicacion.c
+1526595124 source:c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\publicacion.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -280,7 +280,7 @@
 	<string.h>
 	"utn.h"
 
-1526593814 source:c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\main.c
+1526595871 source:c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
