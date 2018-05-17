@@ -31,7 +31,7 @@ int main()
 
     do
     {
-        getValidInt("\n1.Alta de Cliente\n2.Modicicar datos de Cliente\n3.Baja de Cliente\n4.Publicar\n5.Pausar Publicacion\n6.Reanudar Publicacion\n7.Imprimir Clientes\n8.Imprimir Publicaciones\n9.Informar Clientes\n10.Informar Publicaciones\n11.Salir\n","\nNo valida\n",&menu,1,11,1);
+        getValidInt("\n1.Alta de Cliente\n2.Modicicar datos de Cliente\n3.Baja de Cliente\n4.Publicar\n5.Pausar Publicacion\n6.Reanudar Publicacion\n7.Imprimir Clientes\n8.Imprimir Publicaciones\n9.Informar Clientes\n10.Informar Publicaciones\n11.Salir\n\nINGRESE UNA OPCION: ","\nNo valida\n",&menu,1,11,1);
         switch(menu)
         {
             case 1:
@@ -102,6 +102,7 @@ int main()
                         }//if(!publicacion_devolverIdCliente(arrayPublicacion,QTYP,auxiliarId,&idCliente) && publicacion_devolverEstado(arrayPublicacion,QTYP,auxiliarId)){
                     }//if(!getValidInt("\nIngrese ID de Publicacion: ","\nNumero invalido\n",&auxiliarId,0,200,2)){
                 }//if (!publicacion_listarPausadas(arrayPublicacion,QTYP)){
+                break;
                 case 7:
                 printf("\n\tIMPRIMIR CLIENTES:\n");
                 informe_imprimirCliente(arrayCliente,QTY,arrayPublicacion,QTYP);
@@ -119,8 +120,6 @@ int main()
                 informe_publicacionFinal(arrayCliente,QTY,arrayPublicacion,QTYP);
                 break;
         }
-        fflush(stdin);
-
     }while(menu != 11);
 
     return 0;

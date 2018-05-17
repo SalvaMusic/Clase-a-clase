@@ -242,3 +242,53 @@
 
 1526398445 c:\users\windows\desktop\parcial 1\informe.h
 
+1526593283 source:c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"publicacion.h"
+	"utn.h"
+
+1526593283 c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\cliente.h
+
+1526593283 c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\publicacion.h
+	"cliente.h"
+
+1526593283 c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\utn.h
+
+1526593735 source:c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\informe.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"publicacion.h"
+	"utn.h"
+
+1526593283 source:c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\publicacion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"publicacion.h"
+	"cliente.h"
+	"utn.h"
+
+1526593283 source:c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1526593814 source:c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"publicacion.h"
+	"cliente.h"
+	"utn.h"
+	"informe.h"
+
+1526593283 c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\informe.h
+

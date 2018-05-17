@@ -24,8 +24,10 @@ int informe_publicacionFinal(Cliente* arrayC,int limiteC,Publicacion* arrayP,int
 
     if(!getValidInt("\nIngrese Rubro: ", "\nSolo Numeros de 0 a 100!", &rubro,0,100,3)){
         cantidadActivas=publicacion_contarAcivasPorRubro(arrayP,limiteP,rubro);
-        if(rubro>0){
+        if(cantidadActivas>0){
             printf("\nEl rubro %d tiene %d publicaciones activas.\n",rubro,cantidadActivas);
+        }else{
+            printf("\nEl rubro %d no tiene publicaciones aun.\n", rubro);
         }
     }
 
