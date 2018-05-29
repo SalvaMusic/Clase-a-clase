@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1527618196 source:c:\users\windows\downloads\tp_3_cascara\emovie.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"emovie.h"
+	"utn.h"
+
+1527620913 c:\users\windows\downloads\tp_3_cascara\emovie.h
+
+1526316650 c:\users\windows\downloads\tp_3_cascara\utn.h
+
+1526316650 source:c:\users\windows\downloads\tp_3_cascara\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1527620598 source:c:\users\windows\downloads\tp_3_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"emovie.h"
+	"utn.h"
+
