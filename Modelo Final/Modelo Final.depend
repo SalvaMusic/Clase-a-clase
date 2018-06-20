@@ -1,0 +1,349 @@
+# depslib dependency file v1.0
+1525975052 source:c:\users\windows\documents\utn\programacion y laboratorio 1\template practica parcial\template\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"producto.h"
+	"proveedores.h"
+	"utn.h"
+	"informe.h"
+
+1525974068 c:\users\windows\documents\utn\programacion y laboratorio 1\template practica parcial\template\producto.h
+
+1525942429 c:\users\windows\documents\utn\programacion y laboratorio 1\template practica parcial\template\proveedores.h
+
+1525970930 c:\users\windows\documents\utn\programacion y laboratorio 1\template practica parcial\template\utn.h
+
+1525973839 source:c:\users\windows\documents\utn\programacion y laboratorio 1\template practica parcial\template\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+	"utn.h"
+
+1525964766 source:c:\users\windows\documents\utn\programacion y laboratorio 1\template practica parcial\template\proveedores.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"proveedores.h"
+	"utn.h"
+
+1525970930 source:c:\users\windows\documents\utn\programacion y laboratorio 1\template practica parcial\template\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1525975012 source:c:\users\windows\documents\utn\programacion y laboratorio 1\template practica parcial\template\informe.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"informe.h"
+	"utn.h"
+	"Producto.h"
+	"proveedores.h"
+
+1525974503 c:\users\windows\documents\utn\programacion y laboratorio 1\template practica parcial\template\informe.h
+	"proveedores.h"
+	"producto.h"
+
+1525976334 source:c:\users\windows\documents\utn\programacion y laboratorio 1\template para parcial\template\informe.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"informe.h"
+	"utn.h"
+	"gasper.h"
+	"fantasma.h"
+
+1525976317 c:\users\windows\documents\utn\programacion y laboratorio 1\template para parcial\template\informe.h
+	"fantasma.h"
+	"gasper.h"
+
+1525970930 c:\users\windows\documents\utn\programacion y laboratorio 1\template para parcial\template\utn.h
+
+1525976317 source:c:\users\windows\documents\utn\programacion y laboratorio 1\template para parcial\template\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"gasper.h"
+	"fantasma.h"
+	"utn.h"
+	"informe.h"
+
+1525970930 source:c:\users\windows\documents\utn\programacion y laboratorio 1\template para parcial\template\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1525976317 source:c:\users\windows\documents\utn\programacion y laboratorio 1\template para parcial\template\fantasma.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fantasma.h"
+	"utn.h"
+
+1525976317 c:\users\windows\documents\utn\programacion y laboratorio 1\template para parcial\template\fantasma.h
+
+1525976317 c:\users\windows\documents\utn\programacion y laboratorio 1\template para parcial\template\gasper.h
+
+1525976378 source:c:\users\windows\documents\utn\programacion y laboratorio 1\template para parcial\template\gasper.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"gasper.h"
+	"utn.h"
+
+1525987656 source:d:\template para parcial\template\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1525987656 d:\template para parcial\template\utn.h
+
+1525994261 source:d:\template para parcial\template\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"utn.h"
+
+1525994261 d:\template para parcial\template\cliente.h
+
+1525991720 source:d:\template para parcial\template\informe.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"informe.h"
+	"utn.h"
+	"publicacion.h"
+	"cliente.h"
+
+1525989212 d:\template para parcial\template\informe.h
+	"cliente.h"
+	"publicacion.h"
+
+1525996941 d:\template para parcial\template\publicacion.h
+	"cliente.h"
+
+1525995538 source:d:\template para parcial\template\publicacion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"publicacion.h"
+	"cliente.h"
+	"utn.h"
+
+1525996930 source:d:\template para parcial\template\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"publicacion.h"
+	"cliente.h"
+	"utn.h"
+
+1526051964 source:c:\users\liliana\documents\tp_laboratorio_1-master\parcial 1\publicacion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"publicacion.h"
+	"cliente.h"
+	"utn.h"
+
+1526051964 c:\users\liliana\documents\tp_laboratorio_1-master\parcial 1\publicacion.h
+	"cliente.h"
+
+1526051964 c:\users\liliana\documents\tp_laboratorio_1-master\parcial 1\cliente.h
+
+1526051964 c:\users\liliana\documents\tp_laboratorio_1-master\parcial 1\utn.h
+
+1526051964 source:c:\users\liliana\documents\tp_laboratorio_1-master\parcial 1\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1526249453 source:c:\users\liliana\documents\tp_laboratorio_1-master\parcial 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"publicacion.h"
+	"cliente.h"
+	"utn.h"
+
+1526252178 source:c:\users\liliana\documents\tp_laboratorio_1-master\parcial 1\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"publicacion.h"
+	"utn.h"
+
+1526573470 source:c:\users\windows\desktop\parcial 1\publicacion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"publicacion.h"
+	"cliente.h"
+	"utn.h"
+
+1526573533 c:\users\windows\desktop\parcial 1\publicacion.h
+	"cliente.h"
+
+1526571964 c:\users\windows\desktop\parcial 1\cliente.h
+
+1526316650 c:\users\windows\desktop\parcial 1\utn.h
+
+1526316650 source:c:\users\windows\desktop\parcial 1\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1526573470 source:c:\users\windows\desktop\parcial 1\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"publicacion.h"
+	"utn.h"
+
+1526568685 source:c:\users\windows\desktop\parcial 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"publicacion.h"
+	"cliente.h"
+	"utn.h"
+	"informe.h"
+
+1526571964 source:c:\users\windows\desktop\parcial 1\informe.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"publicacion.h"
+	"utn.h"
+
+1526398445 c:\users\windows\desktop\parcial 1\informe.h
+
+1529444877 source:c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"publicacion.h"
+	"utn.h"
+
+1529444877 c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\cliente.h
+
+1529444877 c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\publicacion.h
+	"cliente.h"
+
+1529444877 c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\utn.h
+
+1526595978 source:c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\informe.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"publicacion.h"
+	"utn.h"
+
+1529444877 source:c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\publicacion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"publicacion.h"
+	"cliente.h"
+	"utn.h"
+
+1529444877 source:c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1529444877 source:c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"publicacion.h"
+	"cliente.h"
+	"utn.h"
+	"informe.h"
+
+1529444877 c:\users\alumno\downloads\clase-a-clase-master\clase-a-clase-master\parcial 1\informe.h
+
+1529449555 source:d:\modelo final\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1529444877 d:\modelo final\utn.h
+
+1529457319 source:d:\modelo final\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+	"cliente.h"
+	"ArrayList.h"
+	"controller.h"
+
+1529445884 source:d:\modelo final\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1529444880 d:\modelo final\arraylist.h
+
+1529457319 source:d:\modelo final\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"utn.h"
+
+1529457376 d:\modelo final\cliente.h
+
+1529457376 source:d:\modelo final\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"utn.h"
+	"ArrayList.h"
+
+1529446341 source:d:\modelo final\ventas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ventas.h"
+	"utn.h"
+
+1529444878 d:\modelo final\ventas.h
+
+1529457082 d:\modelo final\controller.h
+
