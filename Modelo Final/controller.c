@@ -4,8 +4,9 @@
 #include "cliente.h"
 #include "utn.h"
 #include "ArrayList.h"
+#include "controller.h"
 
-int controller_leerArchivoClientes(char* path,ArrayList* pArrayClientes)
+int controller_leerArchivoCliente(char* path,ArrayList* pArrayClientes)
 {
     FILE* pFile;
     Cliente* pAuxiliarCliente;
@@ -55,7 +56,7 @@ int controller_altaCliente(ArrayList* pArrayClientes)
     return retorno;
 }
 
-int controller_listarArchivoClientes(ArrayList* pArrayClientes)
+int controller_listarCliente(ArrayList* pArrayClientes)
 {
     Cliente* auxiliarCliente;
     int retorno = -1;
@@ -79,6 +80,34 @@ int controller_listarArchivoClientes(ArrayList* pArrayClientes)
 
     return retorno;
 }
+
+int controller_listarClienteApellidoNombre(ArrayList* pArrayClientes)
+{
+    Cliente* auxiliarCliente;
+    int retorno = -1;
+    int i;
+    char nombre[64];
+    char apellido[64];
+    char dni[14];
+    int id;
+
+    printf("\nID - Nombre - Apellido - DNI");
+
+    controller_ordenarClienteApellidoNombre(pArrayClientes);
+    for(i=0;i<al_len(pArrayClientes);i++)
+    {
+        auxiliarCliente = al_get(pArrayClientes,i);
+        cliente_getId(auxiliarCliente,&id);
+        cliente_getNombre(auxiliarCliente,nombre);
+        cliente_getApellido(auxiliarCliente,apellido);
+        cliente_getDni(auxiliarCliente,dni);
+        printf("\n%d - %s - %s- %s",id,nombre,apellido,dni);
+    }
+    printf("\n");
+
+    return retorno;
+}
+
 
 int controller_modificarCliente(ArrayList* pArrayClientes)
 {
@@ -147,7 +176,7 @@ int controller_bajaCliente(ArrayList* pArrayClientes)
     return retorno;
 }
 
-int controller_guardarClientesArchivo(ArrayList* pArrayClientes,char* path)
+int controller_guardarClienteArchivo(ArrayList* pArrayClientes,char* path)
 {
     Cliente* auxiliarCliente;
     int retorno = -1;
@@ -176,7 +205,7 @@ int controller_guardarClientesArchivo(ArrayList* pArrayClientes,char* path)
     return retorno;
 }
 
-int controller_ordenarArchivoApellidoNombre(ArrayList* pArrayClientes)
+int controller_ordenarClienteApellidoNombre(ArrayList* pArrayClientes)
 {
     int retorno = -1;
     if(pArrayClientes != NULL)
@@ -186,34 +215,3 @@ int controller_ordenarArchivoApellidoNombre(ArrayList* pArrayClientes)
     }
     return retorno;
 }
-/*
-int controller_ordenarEmail(ArrayList* pArrayClientes)
-{
-    int retorno = -1;
-    if(pArrayClientes != NULL)
-    {
-        retorno = 0;
-        al_sort(pArrayClientes,cliente_ordenarEmail,1);
-    }
-    return retorno;
-}
-
-int controller_modificar(ArrayList* pArrayClientes)
-{
-    Cliente* auxiliarCliente;
-    int retorno = -1;
-    int id;
-    char nombre[64];
-    char apellido[64];
-    char email[256];
-
-    getValidInt("\nIngrese el ID: ","\nIngrese un caracter valido!",&id,0,1000,2);
-*/
-
-       /* auxiliarCliente = al_get(pArrayClientes,i);
-        cliente_getNombre(auxiliarCliente,nombre);
-        cliente_getApellido(auxiliarCliente,apellido);
-        cliente_getEmail(auxiliarCliente,email);*/
-  /*  return retorno;
-
-}*/

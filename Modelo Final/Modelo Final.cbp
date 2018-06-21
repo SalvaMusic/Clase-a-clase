@@ -46,14 +46,18 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="producto.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="producto.h" />
 		<Unit filename="utn.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="utn.h" />
-		<Unit filename="ventas.c">
+		<Unit filename="venta.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="ventas.h" />
+		<Unit filename="venta.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

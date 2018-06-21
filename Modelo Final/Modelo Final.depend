@@ -347,3 +347,77 @@
 
 1529457082 d:\modelo final\controller.h
 
+1529457488 source:c:\users\familia pedrozo\downloads\clase-a-clase-master\modelo final\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1529457488 c:\users\familia pedrozo\downloads\clase-a-clase-master\modelo final\arraylist.h
+
+1529457488 source:c:\users\familia pedrozo\downloads\clase-a-clase-master\modelo final\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"utn.h"
+
+1529457488 c:\users\familia pedrozo\downloads\clase-a-clase-master\modelo final\cliente.h
+
+1529457488 c:\users\familia pedrozo\downloads\clase-a-clase-master\modelo final\utn.h
+
+1529457488 source:c:\users\familia pedrozo\downloads\clase-a-clase-master\modelo final\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1529457488 source:c:\users\familia pedrozo\downloads\clase-a-clase-master\modelo final\ventas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ventas.h"
+	"utn.h"
+
+1529527866 c:\users\familia pedrozo\downloads\clase-a-clase-master\modelo final\ventas.h
+
+1529595360 source:c:\users\familia pedrozo\downloads\clase-a-clase-master\modelo final\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+	"cliente.h"
+	"ArrayList.h"
+	"controller.h"
+
+1529516812 c:\users\familia pedrozo\downloads\clase-a-clase-master\modelo final\controller.h
+
+1529516888 source:c:\users\familia pedrozo\downloads\clase-a-clase-master\modelo final\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"utn.h"
+	"ArrayList.h"
+	"controller.h"
+
+1529595429 source:c:\users\familia pedrozo\downloads\clase-a-clase-master\modelo final\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+	"utn.h"
+
+1529528001 c:\users\familia pedrozo\downloads\clase-a-clase-master\modelo final\producto.h
+
+1529595918 source:c:\users\familia pedrozo\downloads\clase-a-clase-master\modelo final\venta.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"venta.h"
+	"utn.h"
+
+1529595942 c:\users\familia pedrozo\downloads\clase-a-clase-master\modelo final\venta.h
+
