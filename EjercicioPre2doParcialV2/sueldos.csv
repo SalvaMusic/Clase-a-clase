@@ -1,7 +1,7 @@
 id,nombre,horas_trabajadas,sueldo
 
 1, Delphine, 136, 32640
-2, Marlane, 151, 36240
+2, Marlane, 125, 30000
 3, Sayre, 191, 66850
 4, Valli, 171, 59850
 5, Laurena, 212, 74200
@@ -35,7 +35,6 @@ id,nombre,horas_trabajadas,sueldo
 33, Cozmo, 167, 58450
 34, Archibaldo, 123, 29520
 35, Eddy, 136, 32640
-36, Helen-elizabeth, 103, 18540
 37, Hilario, 195, 68250
 38, Helge, 176, 61600
 39, Gardener, 222, 77700
@@ -49,7 +48,6 @@ id,nombre,horas_trabajadas,sueldo
 47, Morten, 95, 17100
 48, Marlena, 233, 81550
 49, Franzen, 83, 14940
-50, L;urette, 195, 68250
 51, Law, 209, 73150
 52, Stevie, 238, 83300
 53, Taylor, 239, 83650
@@ -934,7 +932,6 @@ id,nombre,horas_trabajadas,sueldo
 932, Joya, 178, 62300
 933, Rafferty, 87, 15660
 934, Debby, 181, 63350
-935, Anne-marie, 231, 80850
 936, Clayson, 229, 80150
 937, Jennine, 115, 20700
 938, Drona, 164, 57400

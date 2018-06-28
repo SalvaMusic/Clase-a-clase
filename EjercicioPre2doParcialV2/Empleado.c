@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include "Empleado.h"
+#include "utn.h"
 
 static int isValidNombre(char* nombre);
-static int isValidHorasTrabajadas(int horasTrabajadas);
+static int isValidHorasTrabajadas(char* strHorasTrabajadas);
 
 
 Empleado* empleado_new(void)
@@ -18,15 +19,19 @@ Empleado* empleado_new(void)
 Empleado* empleado_newParametrosString(char* id,char* strNombre,char* strHorasTrabajadas)
 {
     Empleado* this = empleado_new();;
-    int idEmpleado;
-    int horasTrabajadas;
-    idEmpleado = atoi(id);
-    horasTrabajadas = atoi(strHorasTrabajadas);
-        empleado_setId(this,idEmpleado);
-        empleado_setNombre(this,strNombre);
-        empleado_setHorasTrabajadas(this,horasTrabajadas);
 
-    return this;
+    if( !empleado_setId(this,id)        &&
+        !empleado_setNombre(this,strNombre)     &&
+        !empleado_setHorasTrabajadas(this,strHorasTrabajadas)
+      )
+    {
+        return this;
+    }/*else{
+        printf("\n%s, %s, %s", id, strNombre,strHorasTrabajadas);
+    }*/
+
+    empleado_delete(this);
+    return NULL;
 }
 
 void empleado_delete(Empleado* this)
@@ -37,13 +42,16 @@ void empleado_delete(Empleado* this)
 
 
 
-int empleado_setId(Empleado* this, int id)
+int empleado_setId(Empleado* this, char* strId)
 {
     static int ultimoId = -1;
     int retorno = -1;
+    int id;
+
     if(this != NULL)
     {
         retorno = 0;
+        id = atoi(strId);
         if(id > 0)
         {
             this->id = id;
@@ -81,12 +89,15 @@ int empleado_setNombre(Empleado* this, char* nombre)
     return retorno;
 }
 
-int empleado_setHorasTrabajadas(Empleado* this, int horasTrabajadas)
+int empleado_setHorasTrabajadas(Empleado* this, char* strHorasTrabajadas)
 {
     int retorno=-1;
-    if(this != NULL && isValidHorasTrabajadas(horasTrabajadas))
+    int horasTrabajadas;
+
+    if(this != NULL && isValidHorasTrabajadas(strHorasTrabajadas))
     {
             retorno = 0;
+            horasTrabajadas = atoi(strHorasTrabajadas);
             this->horasTrabajadas = horasTrabajadas;
     }
     return retorno;
@@ -162,12 +173,20 @@ int empleado_calcularSueldo(void* this)
 }
 static int isValidNombre(char* nombre)
 {
-    return 1;
+    if(esSoloLetras(nombre))
+    {
+        return 1;
+    }
+    return 0;
 }
 
-static int isValidHorasTrabajadas(int horasTrabajadas)
+static int isValidHorasTrabajadas(char* horasTrabajadas)
 {
-    return 1;
+    if(esNumerico(horasTrabajadas))
+    {
+        return 1;
+    }
+    return 0;
 }
 
 
